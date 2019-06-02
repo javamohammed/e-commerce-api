@@ -13,5 +13,6 @@ $factory->define(Product::class, function (Faker $faker) {
         'price' => $faker->numberBetween(40, 200),
         'stock' => $faker->numberBetween(20, 100),
         'discount' => $faker->numberBetween(10, 30),
+        'user_id' => $faker->numberBetween(1, 2),
     ];
 });
